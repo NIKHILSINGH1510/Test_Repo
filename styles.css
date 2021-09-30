@@ -19,12 +19,12 @@ body {
 
 }
 .navbar-brand{
-    font-size: 23px;
+    font-size: 24px;
 }
 
 .con1{
   color: white;
-  font-size: 50px;
+  font-size: 51px;
   margin-left: 5px;
   width: 30%
 }
@@ -44,7 +44,7 @@ body {
  .content__container {
 	 font-weight: 600;
 	 overflow: hidden;
-	 height: 40px;
+	 height: 42px;
 	 padding: 0 40px;
 }
  .content__container:before {
