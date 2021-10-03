@@ -30,12 +30,19 @@ public class Equilibriumindex{
             sum +=arr[i];
         }
         System.out.println("Sum is : "+sum);
-        for(int i=0;i<n;i++){
-            sum =sum-arr[i];
-            if(sum==leftsum){
-                System.out.println(i);
+           public static void main(String[] args) {
+                int sum=0,leftsum=0;
+                int arr[]={-7, 2, 5, 2, -4, 3, 1};
+                int n=arr.length;
+                for(int i=0;i<n;i++){
+                    sum +=arr[i];
+                }
+                System.out.println("Sum is : "+sum);
+                for(int i=0;i<n;i++){
+                    if(leftsum==sum-arr[i]-leftsum)
+                        System.out.println(i);
+                    leftsum+=arr[i];
+                }
             }
-            leftsum=leftsum+arr[i];
-        }
-    }
+       
 }
